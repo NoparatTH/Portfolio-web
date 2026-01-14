@@ -1677,6 +1677,43 @@ footer {
     }
 }
 
+/* Mobile Performance Optimizations */
+@media (max-width: 768px) {
+    .blob {
+        filter: blur(40px);
+        animation: none;
+        opacity: 0.4;
+    }
+
+    .blob-1,
+    .blob-2,
+    .blob-3 {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .noise-overlay {
+        display: none;
+    }
+
+    nav {
+        backdrop-filter: none;
+        background: rgba(13, 6, 18, 0.98);
+    }
+
+    .contact-card {
+        backdrop-filter: blur(10px);
+    }
+
+    .modal-content {
+        backdrop-filter: none;
+    }
+
+    .lightbox {
+        backdrop-filter: blur(5px);
+    }
+}
+
 @media (max-width: 1024px) {
     .hero-content {
         flex-direction: column-reverse;
