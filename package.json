@@ -1,0 +1,17 @@
+{
+  "name": "noparat-portfolio",
+  "version": "1.0.0",
+  "description": "Noparat Meesarapee Portfolio Website",
+  "scripts": {
+    "minify:css": "cleancss style.css -o dist/style.min.css",
+    "minify:js": "terser script.js -o dist/script.min.js -c -m",
+    "build": "npm run minify:css && npm run minify:js",
+    "build:all": "mkdir dist 2>nul & npm run build"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.27.0"
+  },
+  "author": "Noparat Meesarapee",
+  "license": "ISC"
+}

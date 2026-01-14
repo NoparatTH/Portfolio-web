@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio ของ นพรัตน์ มีสารภี - Graphic Designer และ Web Developer ผู้สร้างสรรค์ประสบการณ์ดิจิทัลที่น่าจดจำ">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Noparat Meesarapee">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Noparat Meesarapee | Portfolio">
+    <meta property="og:description"
+        content="Graphic Designer และ Web Developer ผู้สร้างสรรค์ประสบการณ์ดิจิทัลที่น่าจดจำ">
+    <meta property="og:image" content="assets/logo.png">
+
+    <title>Noparat Meesarapee | Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Prompt:wght@300;400;600&family=Syne:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <!-- Splash Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <h2 class="loader-text">NOPARAT</h2>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/logo.png" alt="NOPHEX Logo">
+            </a>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-links">
+            <a href="#hero" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="works.html">Works</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-text-content">
+                    <h1 class="typewriter-effect">NOPARAT<br>MEESARAPEE</h1>
+                    <p class="subtitle reveal-text delay-1">Graphic Designer</p>
+                </div>
+                <div class="hero-image-grid reveal-img delay-2">
+                    <div class="grid-item item-1">
+                        <picture>
+                            <source srcset="assets/IMG_5902-4.webp" type="image/webp">
+                            <img src="assets/IMG_5902-4.jpg"
+                                alt="Graphic design work showcasing modern visual aesthetics" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="grid-item item-2">
+                        <picture>
+                            <source srcset="assets/IMG_5900-2.webp" type="image/webp">
+                            <img src="assets/IMG_5900-2.jpg" alt="Creative branding project with vibrant colors"
+                                loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="grid-item item-3">
+                        <picture>
+                            <source srcset="assets/IMG_3654-6.webp" type="image/webp">
+                            <img src="assets/IMG_3654-6.png" alt="Digital illustration featuring contemporary art style"
+                                loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="grid-item item-4">
+                        <picture>
+                            <source srcset="assets/IMG_3722-1.webp" type="image/webp">
+                            <img src="assets/IMG_3722-1.png" alt="UI/UX design project with minimalist approach"
+                                loading="lazy">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">Who I Am</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="big-text">สร้างสรรค์ความแตกต่าง ด้วยดีไซน์ที่เหนือระดับ</p>
+                        <p>ผมชื่อ นพรัตน์ มีสารภี
+                            เป็นนักออกแบบกราฟิกและนักพัฒนาเว็บไซต์ที่มีความหลงใหลในการสร้างประสบการณ์ดิจิทัลที่น่าจดจำ
+                            ผมผสมผสานความคิดสร้างสรรค์เข้ากับเทคโนโลยีเพื่อเนรมิตผลงานที่มีเอกลักษณ์ ไม่ซ้ำใคร</p>
+                        <p>จากประสบการณ์ในการทำงานหลากหลายโปรเจกต์ ผมพร้อมที่จะนำเสนอโซลูชั่นที่ดีที่สุดสำหรับคุณ
+                            ไม่ว่าจะเป็นงานออกแบบกราฟิก อัตลักษณ์องค์กร หรือเว็บไซต์ที่ทันสมัย</p>
+
+                        <!-- Resume Download Button -->
+                        <a href="assets/resume.pdf" download class="btn-download">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            <span>Download Resume</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="works">
+            <div class="container">
+                <h2 class="section-title">Selected Works</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <div class="work-card">
+                            <picture>
+                                <source srcset="assets/image2.webp" type="image/webp">
+                                <img src="assets/image2.png" alt="Project 1" loading="lazy">
+                            </picture>
+                            <div class="work-info">
+                                <h3>Graphic Art</h3>
+                                <p>Digital Illustration</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="work-card">
+                            <picture>
+                                <source srcset="assets/image3.webp" type="image/webp">
+                                <img src="assets/image3.png" alt="Project 2" loading="lazy">
+                            </picture>
+                            <div class="work-info">
+                                <h3>Brand Identity</h3>
+                                <p>Logo & Concept</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="work-card">
+                            <picture>
+                                <source srcset="assets/image1.webp" type="image/webp">
+                                <img src="assets/image1.png" alt="Project 3" loading="lazy">
+                            </picture>
+                            <div class="work-info">
+                                <h3>Web Design</h3>
+                                <p>UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="works.html" class="btn-primary" style="display: inline-flex;">
+                    <span>View All Works</span>
+                    <div class="btn-glow"></div>
+                </a>
+            </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <!-- Decorative Background Text -->
+                <div class="contact-bg-text">CONTACT</div>
+
+                <div class="contact-card reveal-text">
+                    <h2 class="section-title">Let's Create Together</h2>
+                    <p class="contact-desc">สนใจร่วมงานหรือต้องการปรึกษาโปรเจกต์? <br>กรอกฟอร์มด้านล่างได้เลยครับ</p>
+
+                    <!-- Contact Form -->
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID"
+                        method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">ชื่อ</label>
+                                <input type="text" id="name" name="name" placeholder="ชื่อของคุณ" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">อีเมล</label>
+                                <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">หัวข้อ</label>
+                            <input type="text" id="subject" name="subject" placeholder="หัวข้อที่ต้องการติดต่อ">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">ข้อความ</label>
+                            <textarea id="message" name="message" rows="5" placeholder="รายละเอียดที่ต้องการติดต่อ..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-submit">
+                            <span>ส่งข้อความ</span>
+                            <div class="btn-glow"></div>
+                        </button>
+                    </form>
+
+                    <!-- Success Message -->
+                    <div id="formSuccess" class="form-success" style="display: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                        <h3>ส่งข้อความสำเร็จ!</h3>
+                        <p>ขอบคุณที่ติดต่อมา จะตอบกลับโดยเร็วที่สุดครับ</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/noparat.meesarapee" target="_blank" rel="noopener noreferrer"
+                            aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/nophex_x/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <footer>
+                    <p>&copy; 2026 Noparat Meesarapee. All rights reserved.</p>
+                </footer>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Image Lightbox -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Lightbox image">
+            <div class="lightbox-info">
+                <h3 class="lightbox-title"></h3>
+                <p class="lightbox-description"></p>
+                <div class="lightbox-tags"></div>
+            </div>
+        </div>
+        <button class="lightbox-nav lightbox-next" aria-label="Next image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+        <div class="lightbox-counter"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
