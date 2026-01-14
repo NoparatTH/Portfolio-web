@@ -237,6 +237,10 @@ body.page-loaded .loader {
     color: #fff;
     overflow: hidden;
     animation: fillText 2s ease-in-out forwards;
+    font-size: inherit;
+    font-weight: inherit;
+    -webkit-text-stroke: 0;
+    padding: inherit;
 }
 
 .loader-bar {
