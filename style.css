@@ -216,13 +216,15 @@ body.page-loaded .loader {
 }
 
 .loader-text {
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 8vw, 3rem);
     font-weight: 800;
     color: transparent;
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
     position: relative;
     margin-bottom: 2rem;
     animation: pulseText 2s infinite;
+    padding: 0 1rem;
+    white-space: nowrap;
 }
 
 .loader-text::before {
